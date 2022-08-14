@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+  --bg-color: #114bc0;
+}
+
+.App-header {
+  background-color: var(--bg-color);
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 1rem;
+  gap: 5rem;
+}
