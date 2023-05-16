@@ -1,17 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
-import Navbar from './Navbar.js';
+import Navbar from './Components/Navbar.js';
+import Header from './Components/Header.js';
+import About from './Components/About';
 
 function App() {
   return (
     <div className="App">
         <Navbar />
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Corey Hampton
-        </p>
-      </header>
+        <Header />
+        <About />
     </div>
   );
 }
