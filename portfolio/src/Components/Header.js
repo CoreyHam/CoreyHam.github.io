@@ -19,7 +19,7 @@ export default function Header({ fixed }) {
                         <a
 
                             href="#contact"
-                            className="inline-flex text-white bg-gray-950 border-0 py-2 px-6 focus:outline-none hover:bg-rose-700 rounded text-lg"
+                            className="inline-flex text-white bg-gray-950 border-0 py-2 px-6 focus:outline-none hover:bg-gray-800 rounded text-lg"
                         >Work With Me
                         </a>
                         <a
@@ -32,12 +32,12 @@ export default function Header({ fixed }) {
                     <div className="flex justify-center mt-4">
                         <a
                             href="https://www.linkedin.com/in/corey-hampton-dev/"
-                            className="ml-4 inline-flex text-gray-950 border-0 focus:outline-none hover:text-rose-700 rounded text-3xl"
+                            className="ml-4 inline-flex text-gray-950 border-0 focus:outline-none hover:text-gray-800 rounded text-3xl"
                         > <i class="fa-brands fa-linkedin"></i>
                         </a>
                         <a
                             href="https://github.com/CoreyHam"
-                            className="ml-4 inline-flex text-gray-950 border-0 focus:outline-none hover:text-rose-700 rounded text-3xl"
+                            className="ml-4 inline-flex text-gray-950 border-0 focus:outline-none hover:text-gray-800 rounded text-3xl"
                         > <i class="fa-brands fa-github"></i>
                         </a>
                     </div>
