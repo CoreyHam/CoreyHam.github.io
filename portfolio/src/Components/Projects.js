@@ -1,5 +1,5 @@
 import React from "react";
-let photo = "https://images.unsplash.com/photo-1683201681334-f25eb7658958?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80"
+import saturnUniversity from './Images/saturn-university.png'
 
 export default function About({ fixed }) {
     return (
@@ -19,7 +19,7 @@ export default function About({ fixed }) {
                         <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                             <img
                                 alt="..."
-                                src={photo}
+                                src={saturnUniversity}
                                 className="w-full align-middle rounded-t-lg"
                             />
                             <blockquote className="relative p-8 mb-4">
@@ -38,15 +38,20 @@ export default function About({ fixed }) {
                                     ></polygon>
                                 </svg>
                                 <h4 className="text-xl font-bold text-gray-600">
-                                    Example
+                                    Saturn University
                                 </h4>
                                 <p className="text-md font-light mt-2 text-gray-600">
-                                    This is where the discription of the project will go.
+                                    The Saturn University website features a user-friendly design that captures the essence of a fictional academic institution nestled among Saturn's rings.
                                 </p>
                             </blockquote>
+                            <div className="flex justify-evenly py-2 text-lg font-bold" >
+                                <a className="p-4 hover:text-red-700" href="/">Live Demo</a>
+                                <a className="p-4 hover:text-red-700" href="https://github.com/CoreyHam/university">GitHub <i class="fa-brands fa-github" ></i> </a>
+
+                            </div>
                         </div>
                     </div>
-                    <div className="w-full lg:w-6/12 px-4">
+                    {/* <div className="w-full lg:w-6/12 px-4">
                         <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                             <img
                                 alt="..."
@@ -138,7 +143,7 @@ export default function About({ fixed }) {
                                 </p>
                             </blockquote>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

@@ -9,7 +9,7 @@ export default function Navbar({ fixed }) {
                     <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
                         <a
                             className="text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-gray-950"
-                            href=""
+                            href="/"
                         >
                             Corey Hampton
                         </a>
@@ -35,7 +35,7 @@ export default function Navbar({ fixed }) {
                         <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
                             <li className="nav-item">
                                 <a
-                                    className="px-3 py-2 flex items-center text-lg uppercase font-bold leading-snug text-gray-950 hover:opacity-75"
+                                    className="px-3 py-2 flex items-center text-lg uppercase font-bold leading-snug text-gray-950 hover:text-red-700"
                                     href="#about"
                                 >
                                     <span className="">About</span>
@@ -43,7 +43,7 @@ export default function Navbar({ fixed }) {
                             </li>
                             <li className="nav-item">
                                 <a
-                                    className="px-3 py-2 flex items-center text-lg uppercase font-bold leading-snug text-gray-950 hover:opacity-75"
+                                    className="px-3 py-2 flex items-center text-lg uppercase font-bold leading-snug text-gray-950 hover:text-red-700"
                                     href="#projects"
                                 >
                                     <span className="">Projects</span>
@@ -51,7 +51,7 @@ export default function Navbar({ fixed }) {
                             </li>
                             <li className="nav-item">
                                 <a
-                                    className="px-3 py-2 flex items-center text-lg uppercase font-bold leading-snug text-gray-950 hover:opacity-75"
+                                    className="px-3 py-2 flex items-center text-lg uppercase font-bold leading-snug text-gray-950 hover:text-red-700"
                                     href="#contact"
                                 >
                                     <span className="">Contact</span>
