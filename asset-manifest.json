@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6498407c.css",
+    "main.js": "/static/js/main.ee1556ec.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/saturn-university.png": "/static/media/saturn-university.abb85001d1e935972d14.png",
+    "static/media/thatsme.png": "/static/media/thatsme.0a5299cfd3d704f0bb8a.png",
+    "index.html": "/index.html",
+    "main.6498407c.css.map": "/static/css/main.6498407c.css.map",
+    "main.ee1556ec.js.map": "/static/js/main.ee1556ec.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6498407c.css",
+    "static/js/main.ee1556ec.js"
+  ]
+}
