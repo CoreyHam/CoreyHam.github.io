@@ -1,5 +1,4 @@
 import React from "react";
-let photo = "https://assets-prd.ignimgs.com/2023/03/30/village-1680206281634.jpg"
 
 export default function About({ fixed }) {
     return (

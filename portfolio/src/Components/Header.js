@@ -31,12 +31,12 @@ export default function Header({ fixed }) {
                     <div className="flex justify-center mt-4">
                         <a
                             href="https://www.linkedin.com/in/corey-hampton-dev/"
-                            className="ml-4 inline-flex text-gray-950 border-0 focus:outline-none hover:text-gray-800 rounded text-3xl"
+                            className="ml-4 inline-flex text-gray-950 border-0 focus:outline-none hover:text-red-700 rounded text-3xl"
                         > <i class="fa-brands fa-linkedin"></i>
                         </a>
                         <a
                             href="https://github.com/CoreyHam"
-                            className="ml-4 inline-flex text-gray-950 border-0 focus:outline-none hover:text-gray-800 rounded text-3xl"
+                            className="ml-4 inline-flex text-gray-950 border-0 focus:outline-none hover:text-red-700 rounded text-3xl"
                         > <i class="fa-brands fa-github"></i>
                         </a>
                     </div>
@@ -49,22 +49,22 @@ export default function Header({ fixed }) {
                     </h1>
                         <a
                             href="https://reactjs.org/"
-                            className="ml-4 inline-flex text-gray-950 border-0 focus:outline-none hover:text-gray-800 rounded text-3xl"
+                            className="ml-4 inline-flex text-gray-950 border-0 focus:outline-none hover:text-red-700 rounded text-3xl"
                         > <i class="fa-brands fa-react"></i>
                         </a>
                         <a
                             href="https://www.javascript.com/"
-                            className="ml-4 inline-flex text-gray-950 border-0 focus:outline-none hover:text-gray-800 rounded text-3xl"
+                            className="ml-4 inline-flex text-gray-950 border-0 focus:outline-none hover:text-red-700 rounded text-3xl"
                         > <i class="fa-brands fa-js-square"></i>
                         </a>
                         <a
                             href="https://www.w3schools.com/html/"
-                            className="ml-4 inline-flex text-gray-950 border-0 focus:outline-none hover:text-gray-800 rounded text-3xl"
+                            className="ml-4 inline-flex text-gray-950 border-0 focus:outline-none hover:text-red-700 rounded text-3xl"
                         > <i class="fa-brands fa-html5"></i>
                         </a>
                         <a
                             href="https://www.w3schools.com/css/"
-                            className="ml-4 inline-flex text-gray-950 border-0 focus:outline-none hover:text-gray-800 rounded text-3xl"
+                            className="ml-4 inline-flex text-gray-950 border-0 focus:outline-none hover:text-red-700 rounded text-3xl"
                         > <i class="fa-brands fa-css3-alt"></i>
                         </a>
                     </div>
