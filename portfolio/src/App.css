@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+.skills-section {
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill-item {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+
+.skill-name {
+  font-weight: bold;
+}
+
+.skill-proficiency {
+  text-align: right;
+}
